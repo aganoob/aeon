@@ -1,0 +1,14 @@
+{
+  "skill": "soul-builder",
+  "last_analyzed": "2026-07-27T18:43:10Z",
+  "quality_score": 4,
+  "assessment": "Skill correctly identified missing source material, followed spec to skip cleanly, logged diagnostically, and provided clear actionable next steps.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-07-27",
+      "score": 4
+    }
+  ]
+}
