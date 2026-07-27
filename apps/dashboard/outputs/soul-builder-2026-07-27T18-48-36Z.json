@@ -1,0 +1,250 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "soul built — Marat Zhanabekov"
+      },
+      "children": [
+        "identity-section",
+        "sep-1",
+        "sources-section",
+        "sep-2",
+        "files-section",
+        "sep-3",
+        "analysis-section",
+        "sep-4",
+        "actions-section"
+      ]
+    },
+    "identity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "identity-heading",
+        "identity-text"
+      ]
+    },
+    "identity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Identity",
+        "level": "h3"
+      }
+    },
+    "identity-text": {
+      "type": "Text",
+      "props": {
+        "text": "co-founder & CTO of nGrow.ai (YC W22) — physics/CS-trained engineer who spent a decade turning mobile app growth into a data-infrastructure problem",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-list"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-1",
+        "source-2"
+      ]
+    },
+    "source-1": {
+      "type": "Text",
+      "props": {
+        "text": "name (web search)",
+        "variant": "body"
+      }
+    },
+    "source-2": {
+      "type": "Text",
+      "props": {
+        "text": "LinkedIn (best-effort)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "files-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "files-heading",
+        "files-list"
+      ]
+    },
+    "files-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Files Created",
+        "level": "h3"
+      }
+    },
+    "files-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "file-1",
+        "file-2",
+        "file-3"
+      ]
+    },
+    "file-1": {
+      "type": "Badge",
+      "props": {
+        "text": "soul/SOUL.md",
+        "variant": "outline"
+      }
+    },
+    "file-2": {
+      "type": "Badge",
+      "props": {
+        "text": "soul/STYLE.md",
+        "variant": "outline"
+      }
+    },
+    "file-3": {
+      "type": "Badge",
+      "props": {
+        "text": "soul/examples/good-outputs.md",
+        "variant": "outline"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "sample-note",
+        "findings-list"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Voice Analysis",
+        "level": "h3"
+      }
+    },
+    "sample-note": {
+      "type": "Text",
+      "props": {
+        "text": "Thin sample (only 2 confirmed public posts), but consistent:",
+        "variant": "caption"
+      }
+    },
+    "findings-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "finding-1",
+        "finding-2",
+        "finding-3"
+      ]
+    },
+    "finding-1": {
+      "type": "Text",
+      "props": {
+        "text": "Treats deliverability and platform policy shifts as the real growth levers, not creative",
+        "variant": "body"
+      }
+    },
+    "finding-2": {
+      "type": "Text",
+      "props": {
+        "text": "Pitches \"no spam, no fluff\" positioning",
+        "variant": "body"
+      }
+    },
+    "finding-3": {
+      "type": "Text",
+      "props": {
+        "text": "Uses classic engagement-bait CTAs himself",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actions-heading",
+        "actions-text"
+      ]
+    },
+    "actions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Next Steps",
+        "level": "h3"
+      }
+    },
+    "actions-text": {
+      "type": "Text",
+      "props": {
+        "text": "Review + edit in the dashboard Soul tab, then Pull to refresh.",
+        "variant": "body"
+      }
+    }
+  }
+}
